@@ -1,0 +1,366 @@
+/* Products.css */
+
+.products {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.products h2{
+  text-align: end;
+  font-size: 2rem;
+}
+
+.products h2 {
+  margin-bottom: 10px;
+}
+
+.website-router {
+  text-align: end;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.website-router:hover{
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.website-router h3 {
+  margin-bottom: 10px;
+}
+
+.website-router button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.website-router button:hover {
+  background-color: white;
+  color: black;
+}
+
+.website-router a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: red;
+  transition: color 0.3s ease;
+}
+
+.website-router a:hover {
+  color: black;
+}
+
+.website-router p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Import the Navbar.css styles */
+.navbar {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.navbar button:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+
+.navbar button:last-child {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar button:last-child:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Import the Combo.css styles */
+.combo {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.combo-1,
+.combo-2,
+.combo-3 {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.combo-1:hover,
+.combo-2:hover,
+.combo-3:hover {
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.combo h2 {
+  margin-bottom: 10px;
+}
+
+.combo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.combo li {
+  margin-bottom: 5px;
+}
+
+.combo button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.combo button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Import the heading styles */
+.heading:hover {
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  text-align: end;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgba(229, 229, 229, 0.289);
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.heading h1 {
+  font-size: 3rem;
+}
+
+.heading h2 {
+  font-size: 2rem;
+}
+
+/* Hide the scrollbar */
+*::-webkit-scrollbar {
+  display: none;
+}
+/* Form.css */
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for validation error messages */
+.validation-error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+/*Price
+
+/* Products.css */
+
+
+.Price h2 {
+  text-align: center;
+  color: red;
+}
+
+.Price table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Price ul {
+  text-align: center;
+}
+
+.Price h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  text-align: end;
+  color: black;
+}
+
+.Price li {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.Price li:last-child {
+  border-bottom: none;
+}
+
+.Price p {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+
+/* Optional: Add hover effect for list items */
+
+.Price{
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+
+/* Purchase.css */
+
+.purchase {
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.purchase h2 {
+  color: red;
+}
+
+.purchase p {
+  color: black;
+}
+
+.purchase form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.purchase label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.purchase input,
+.purchase select,
+.purchase textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.purchase input[type="date"] {
+  width: calc(100% - 22px);
+  padding-right: 30px;
+  margin-bottom: 15px;
+}
+
+/* Style for the calendar button */
+.purchase textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+textarea{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.purchase button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.purchase button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.purchase button:hover {
+  background-color: black;
+}
+
+/* Style for validation error messages */
+.validation-error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
